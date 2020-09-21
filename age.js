@@ -5,5 +5,5 @@
      floatMonths= parseFloat(floatAge * 12).toFixed(2);
      intWeeks= parseInt(floatDays/7);
      intFortnights= parseInt(floatDays/14);
-     alert("Age= " +floatAge)+("Days= " +floatDays)+("Months= " +floatMonths)+("Weeks= " +intWeeks)+("Fortnights= " +intFortnights);
+     alert("Age= " +floatAge+"Days= " +floatDays+"Months= " +floatMonths+"Weeks= " +intWeeks+"Fortnights= " +intFortnights);
 
