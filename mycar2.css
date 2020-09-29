@@ -1,0 +1,44 @@
+body {
+    font-family: Optima, sans-serif;
+    background: #5f557a;
+}
+
+#content {
+    width: 545px;
+    margin: 12px auto;
+    padding: 7px 17px;
+    background: #FFFFFF;
+    border: 3px solid #666643;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: pink;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 75px;
+}
+
+#futureValue {
+    color: purple;
+}
+
+br {
+    clear: left;
+}
