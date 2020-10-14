@@ -6,7 +6,7 @@ var $ = function (id)
 var calculateIncome = function () 
 {
     var floatAnnualIncome = parseInt($("annualIncome").value);
-    var intAge = parseInt($("userAge").value);
+    var intAge = parseInt($("age").value);
     var floatTaxRate, floatAnnualTax;
     if (intUserAge >= 65)
     {
