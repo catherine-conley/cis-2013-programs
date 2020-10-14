@@ -18,11 +18,11 @@ var calculateIncome = function ()
     	{
     		if(floatAnnualIncome >= 30000 && floatAnnualIncome <= 75000)
     		{
-    			floatTaxRate = .05;
+    			floatTaxRate = 5;
     		}
     		else
     		{
-    			floatTaxRate = .20;
+    			floatTaxRate = 20;
             }
     	}
     } 
@@ -30,17 +30,17 @@ var calculateIncome = function ()
     	{
     	if (floatAnnualIncome <= 30000)
     	{
-    		floatTaxRate = .05;
+    		floatTaxRate = 5;
     	}
    		else
         {
             if (floatAnnualIncome >= 30000 && floatAnnualIncome <= 75000)
             {
-                floatTaxRate = .10;
+                floatTaxRate = 10;
             }
             else
             {
-                floatTaxRate = .20;
+                floatTaxRate = 20;
             }
         }
 	}
