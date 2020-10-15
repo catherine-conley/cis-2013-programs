@@ -57,7 +57,7 @@ else
     floatFinPts = parseFloat($("fin_pts").value);
     floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
     intGradeOption = parseInt($("grade_option").value);
-    stringFinalGrade = parseString($("final_grade").value);
+
 
 
 
