@@ -12,6 +12,7 @@ var calculate_click = function ()
     floatFinPts = parseFloat($("fin_pts").value);
     floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
     intGradeOption = parseInt($("grade_option").value);
+    stringFinalGrade = parseString($("final_grade").value);
 
 if (intGradeOption===1)
 {
@@ -64,9 +65,6 @@ window.onload = function ()
     $("calculate").onclick = calculate_click; //activates main method when the button is clicked 
     $("hw_pts").focus(); //puts the cursor on the first DOM text input box
 };
-
-
-
 
 
 $("final_grade").value = stringFinalGrade;
