@@ -65,6 +65,6 @@ window.onload = function ()
     $("calculate").onclick = calculate_click; //activates main method when the button is clicked 
     $("hw_pts").focus(); //puts the cursor on the first DOM text input box
 };
-
+var stringFinalGrade;
 
 $("final_grade").value = stringFinalGrade;
