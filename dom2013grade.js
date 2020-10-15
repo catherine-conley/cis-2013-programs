@@ -3,18 +3,9 @@ var $ = function (id)
     return document.getElementById(id);
 };
 
-var calculate_click = function () 
-{
-    var floatHwPts, floatMidPts, floatFinPts, floatTotalPts, intGradeOption, stringFinalGrade;
-
-    floatHwPts = parseFloat($("hw_pts").value);
-    floatMidPts = parseFloat($("mid_pts").value);
-    floatFinPts = parseFloat($("fin_pts").value);
-    floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
-    intGradeOption = parseInt($("grade_option").value);
-    stringFinalGrade = parseString($("final_grade").value);
-
-if (intGradeOption===1)
+var calculate_click = function (
+ {   
+    if (intGradeOption===1)
 {
     if(floatTotalPts >= 80)
     {
@@ -25,6 +16,7 @@ if (intGradeOption===1)
         stringFinalGrade = "Fail";   
     }
 }
+ }
 else
 {
     if(floatTotalPts >= 90)
@@ -56,8 +48,18 @@ else
             }
         }
     }
-}
-};
+}) 
+{
+    var floatHwPts, floatMidPts, floatFinPts, floatTotalPts, intGradeOption, stringFinalGrade;
+
+    floatHwPts = parseFloat($("hw_pts").value);
+    floatMidPts = parseFloat($("mid_pts").value);
+    floatFinPts = parseFloat($("fin_pts").value);
+    floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
+    intGradeOption = parseInt($("grade_option").value);
+    stringFinalGrade = parseString($("final_grade").value);
+
+
 
 window.onload = function () 
 {
