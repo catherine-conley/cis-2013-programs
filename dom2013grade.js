@@ -13,18 +13,6 @@ var calculate_click = function ()
     floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
     intGradeOption = parseInt($("grade_option").value);
 
-
-};
-
-window.onload = function () 
-{
-    $("final_grade").value = ""; //blanks the final grade text box upon page load
-    $("calculate").onclick = calculate_click; //activates main method when the button is clicked 
-    $("hw_pts").focus(); //puts the cursor on the first DOM text input box
-};
-
-
-
 if (intGradeOption===1)
 {
     if(floatTotalPts >= 80)
@@ -68,5 +56,17 @@ else
         }
     }
 }
+};
+
+window.onload = function () 
+{
+    $("final_grade").value = ""; //blanks the final grade text box upon page load
+    $("calculate").onclick = calculate_click; //activates main method when the button is clicked 
+    $("hw_pts").focus(); //puts the cursor on the first DOM text input box
+};
+
+
+
+
 
 $("final_grade").value = stringFinalGrade;
