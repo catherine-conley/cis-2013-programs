@@ -16,17 +16,17 @@ var fixPrinter = function()
 
     //define the individual troubleshooting tips per the chart
 
-    var stringMessage1 = "Check the power cable.";
+    var stringMessage1 = "Check the power cable. ";
 
-    var stringMessage2 = "Check the printer-computer cable.";
+    var stringMessage2 = "Check the printer-computer cable. ";
 
-    var stringMessage3 = "Ensure printer software is installed.";
+    var stringMessage3 = "Ensure printer software is installed. ";
 
-    var stringMessage4 = "Check / replace ink.";
+    var stringMessage4 = "Check/replace ink. ";
 
-    var stringMessage5 = "Check for paper jam.";
+    var stringMessage5 = "Check for paper jam. ";
 
-    var stringMessage6 = "Looks like everything is working fine!";
+    var stringMessage6 = "Looks like everything is working fine! ";
 
  
 
