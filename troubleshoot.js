@@ -51,7 +51,7 @@ var fixPrinter = function()
         (stringOutput = stringMessage5);
     }
 };
-    if (boolRedLight===true)
+    if (boolRedLight===true) 
     {
         if (boolRecognised===true)
         {
