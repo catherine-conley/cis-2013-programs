@@ -48,7 +48,7 @@ var fixPrinter = function()
         stringOutput = stringMessage3;
         break;
         case boolPrinting === false && boolRedLight === false && boolRecognised === false:
-        stringOut = stringMessage6;
+        stringOutput = stringMessage6;
         break;
     }
  
