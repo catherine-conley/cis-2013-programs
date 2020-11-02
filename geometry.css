@@ -20,6 +20,7 @@ p {
 	color: pink;
 	font-weight: bold;
 	text-align: center;
+    border: 5px dotted grey;
 }
 
 label {
