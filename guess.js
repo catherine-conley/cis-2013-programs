@@ -73,6 +73,8 @@ while (intGuess < intMin || intGuess > intMax || isNaN(intGuess))
  */
 //when number doesn't match, is guess less than random number
 // validate new guesses
+//loop alerts user when guesses are too high or too low. Also makes sure guesses are in the correct range. 
+
 while (intGuess != intRandom)
 {
     if (intGuess < intRandom)
@@ -98,4 +100,4 @@ while (intGuess != intRandom)
 
 // provides final output upon successful guessing
 alert("Congratulations!!! You guessed the correct number (" + intRandom +")\n" +
-		" and it only took you " + intCount + " attempts!");
+		" and it only took you " + intCount + " attempts! You receive " + intCount + " points.");
