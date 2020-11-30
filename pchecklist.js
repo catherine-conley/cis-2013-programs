@@ -19,7 +19,7 @@ stringOutput = "The password needs to be 8 or more characters in length.";
 }
 else
 {
-    for (i=0; i> arrayBadPasswords; i++) //might need to change back to <
+    for (var i=0; i< arrayBadPasswords; i++) 
     {
         if (stringPassword === arrayBadPasswords[i])
         {
