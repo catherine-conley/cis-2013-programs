@@ -24,16 +24,23 @@ else
         if (stringPassword === arrayBadPasswords[i])
         {
         stringOutput = "This password is invalid. Try something else.";
+        break;
         }
     }
 }
-stringOutput = "That's correct!";
-$("output").value = stringOutput;
+if (stringOutput != "")
+{
+    $("output").value = stringOutput;
+}
+else
+{
+   $("output").value = "That's correct!"
+}
 };
 
 window.onload = function () 
 {
-   $("password").value = "";
+//   $("password").value = "";
    $("password").focus();
    $("check_password").onclick = passwordCheckOld;
 };
