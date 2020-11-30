@@ -23,7 +23,7 @@ else
     {
         if (stringPassword === arrayBadPasswords[i])
         {
-        stringOutput = "This password is invalid. Try something else.";
+        stringOutput = "This password is not strong. Try something else.";
         break;
         }
     }
