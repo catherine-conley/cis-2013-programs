@@ -33,7 +33,7 @@ $("output").value = stringOutput;
 
 window.onload = function () 
 {
-//    $("password").value = "";
+   $("password").value = "";
    $("password").focus();
    $("check_password").onclick = passwordCheckOld;
 };
