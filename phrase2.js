@@ -101,4 +101,4 @@ window.onload = function ()
     $("consonants").onclick = consonants; //runs the calculate_click function when clicked
     $("reverse").onclick = reverse; //runs the calculate_click function when clicked
     $("clear").onclick = clear; //runs the calculate_click function when clicked        
-}  
+}; 
