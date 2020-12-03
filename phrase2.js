@@ -77,7 +77,7 @@ var reverse = function ()
 	
 		var stringReversed = "";
 		// insert for loop here
-		for (var intCount = stringEntry.length-1; intCount <=0; intCount--)
+		for (var intCount = stringEntry.length-1; intCount >=0; intCount--)
         {
             stringReversed = stringReversed + stringEntry.charAt(intCount);
         }
